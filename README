@@ -1,0 +1,10 @@
+This container allows flashing a balenaOS image on a Jetson device
+
+Necessary steps:
+1) Download a Jetson balenaOS image from balena-cloud.com, extract it and place it in the balenaos_images directory
+2) Ensure Docker is installed
+3) Run the flashing script, for example:
+   $ ./flash.sh -m jetson-agx-orin-devkit -f balenaos_images/balena-cloud-jetson-orin-app-jetson-agx-orin-devkit-2.106.7-v14.3.3.img
+   
+
+NOTE: The jeston-flash version packaged in this archive is 0.5.33
